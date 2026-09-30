@@ -1,4 +1,4 @@
-# hublogout #
+# apiogout #
 
 TO-DO Describe the plugin shortly here.
 

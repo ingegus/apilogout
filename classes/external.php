@@ -17,13 +17,13 @@
 /**
  * Plugin strings are defined here.
  *
- * @package     local_hublogout
+ * @package     local_apilogout
  * @category    string
  * @copyright   2025 Gustavo A. Rodriguez A. - IngeGus <hola@ingegus.dev>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace local_hublogout;
+namespace local_apilogout;
 
 defined('MOODLE_INTERNAL') || die();
 

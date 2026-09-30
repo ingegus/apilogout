@@ -17,7 +17,7 @@
 /**
  * Plugin strings are defined here.
  *
- * @package     local_hublogout
+ * @package     local_apilogout
  * @category    string
  * @copyright   2025 Gustavo A. Rodriguez A. - IngeGus <hola@ingegus.dev>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'hublogout';
+$string['pluginname'] = 'apilogout';

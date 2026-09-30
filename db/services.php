@@ -17,7 +17,7 @@
 /**
  * Plugin strings are defined here.
  *
- * @package     local_hublogout
+ * @package     local_apilogout
  * @category    string
  * @copyright   2025 Gustavo A. Rodriguez A. - IngeGus <hola@ingegus.dev>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $functions = [
-    'local_hublogout_kill_user_session' => [
-        'classname'   => 'local_hublogout\external',
+    'local_apilogout_kill_user_session' => [
+        'classname'   => 'local_apilogout\external',
         'methodname'  => 'kill_user_session',
         'description' => 'Destruye la sesión activa de un usuario a partir de su correo electrónico.',
         'type'        => 'write',
@@ -38,7 +38,7 @@ $functions = [
 
 $services = [
     'Hub Session Service' => [
-        'functions' => ['local_hublogout_kill_user_session'],
+        'functions' => ['local_apilogout_kill_user_session'],
         'restrictedusers' => 0,
         'enabled' => 1,
         'shortname' => 'hub_session_service',

@@ -1,4 +1,4 @@
-# apiogout #
+# apilogout #
 
 TO-DO Describe the plugin shortly here.
 
